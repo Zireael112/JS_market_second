@@ -88,10 +88,10 @@ function totalSummAndAmount() {
             } 
         }
     }
-    return `
-    totalAmount: ${amount}
-    totalSumm: ${summ}
-    `
+    return {
+    totalAmount: amount,
+    totalSumm: summ
+    }
 }
 
 addProduct(3, 2)
